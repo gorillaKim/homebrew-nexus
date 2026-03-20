@@ -7,9 +7,13 @@ cask "obsidian-nexus" do
   desc "Agent-friendly knowledge search engine for Obsidian vaults"
   homepage "https://github.com/gorillaKim/obsidian-nexus"
 
-  quarantine false
-
   app "Obsidian Nexus.app"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+      args: ["-cr", "#{appdir}/Obsidian Nexus.app"],
+      sudo: false
+  end
 
   zap trash: [
     "~/.nexus",
