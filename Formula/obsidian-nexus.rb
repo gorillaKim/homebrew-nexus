@@ -1,4 +1,4 @@
-class Nexus < Formula
+class ObsidianNexus < Formula
   desc "Agent-friendly knowledge search engine for Obsidian vaults (CLI)"
   homepage "https://github.com/gorillaKim/obsidian-nexus"
   version "0.3.4"
