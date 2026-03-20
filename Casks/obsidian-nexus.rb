@@ -1,11 +1,13 @@
 cask "obsidian-nexus" do
-  version "0.3.4"
-  sha256 "044ba71550925f9318b84cc8d85a426e534f8aaaae68fcadad7bc8da339c779c"
+  version "0.3.6"
+  sha256 "81c071b95ef61cb2515ada62a038ddbeb1803e39647ac53b926849c99fdbabd2"
 
   url "https://github.com/gorillaKim/obsidian-nexus/releases/download/v#{version}/Obsidian-Nexus.dmg"
   name "Obsidian Nexus"
   desc "Agent-friendly knowledge search engine for Obsidian vaults"
   homepage "https://github.com/gorillaKim/obsidian-nexus"
+
+  quarantine false
 
   app "Obsidian Nexus.app"
 
