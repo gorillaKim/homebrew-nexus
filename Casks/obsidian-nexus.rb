@@ -1,6 +1,6 @@
 cask "obsidian-nexus" do
-  version "0.4.2"
-  sha256 "88b086359fa37c050e61f6a60eb007eb1faedb95278626a36ecc3dead2791a8e"
+  version "0.4.3"
+  sha256 "9ecc84d9c40046d8a2b3d42e2804dc0d8770dcdea203b752c92eefcfc19c288f"
 
   url "https://github.com/gorillaKim/obsidian-nexus/releases/download/v#{version}/Obsidian-Nexus.dmg"
   name "Obsidian Nexus"
