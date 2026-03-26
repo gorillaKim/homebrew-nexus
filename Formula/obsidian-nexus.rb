@@ -1,16 +1,16 @@
 class ObsidianNexus < Formula
   desc "Agent-friendly knowledge search engine for Obsidian vaults (CLI)"
   homepage "https://github.com/gorillaKim/obsidian-nexus"
-  version "0.5.3"
+  version "0.5.5"
 
   on_macos do
     on_arm do
       url "https://github.com/gorillaKim/obsidian-nexus/releases/download/v#{version}/nexus-cli-darwin-aarch64.tar.gz"
-      sha256 "84566d3ac89166aad981ad01b4aca46709e37ad6845fb7c0fb92025f23e3d458"
+      sha256 "4c217a1a0578629de228bab913a8488a7ae57af4e3b6388d44d86ff0e4432a0c"
     end
     on_intel do
       url "https://github.com/gorillaKim/obsidian-nexus/releases/download/v#{version}/nexus-cli-darwin-x86_64.tar.gz"
-      sha256 "84f3894c3bdf7bc45b7320e921815091a3da9f47b3ecb7fee787fd310643b67d"
+      sha256 "156bedab7b31ed4743a114476489a3cf80b24c368cb3a4e6f21a67cde9e0e2cc"
     end
   end
 
