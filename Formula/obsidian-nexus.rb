@@ -6,11 +6,11 @@ class ObsidianNexus < Formula
   on_macos do
     on_arm do
       url "https://github.com/gorillaKim/obsidian-nexus/releases/download/v#{version}/nexus-cli-darwin-aarch64.tar.gz"
-      sha256 "4c217a1a0578629de228bab913a8488a7ae57af4e3b6388d44d86ff0e4432a0c"
+      sha256 "d9010b04c915a0587e99d7888e161135ce85d65e38a897de92d34cb7ca019b6a"
     end
     on_intel do
       url "https://github.com/gorillaKim/obsidian-nexus/releases/download/v#{version}/nexus-cli-darwin-x86_64.tar.gz"
-      sha256 "156bedab7b31ed4743a114476489a3cf80b24c368cb3a4e6f21a67cde9e0e2cc"
+      sha256 "ea8f621912a80a3c8c2dac641863897c82a4d5bf8758a48c8da5937621b82612"
     end
   end
 
